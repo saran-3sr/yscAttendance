@@ -1,0 +1,68 @@
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.salutation
+{
+    width: 90% ;
+    margin: 12px auto;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif
+}
+.card
+{
+    width: 80%;
+    margin: 8px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: aliceblue;
+}
+.cardTitle
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #112D4E;
+    color: white;
+    padding: 4px;
+    font-size: 28px;
+}
+.total
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+.totalText
+{
+    font-size: 24px;
+}
+.totalNumber
+{
+    font-size: 36px;
+    margin:18px 0 18px 0;
+    padding: 0;
+}
+.totalNumberDet
+{
+    display: flex;
+    border-top: solid 2px #112D4E;
+    padding: 18px 9px;
+}
+.totalNumberSub
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 4px;
+}
+.left
+{
+    border-right: solid 2px #112D4E;
+}

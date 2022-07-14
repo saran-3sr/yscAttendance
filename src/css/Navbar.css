@@ -1,0 +1,63 @@
+.nav-container
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #112D4E;
+    padding:3% 0 ;
+}
+.nav-logo
+{
+    font-size: 28px;
+    margin-left: 5%;
+    color:white;
+}
+.list-Ul
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+    line-height: 3.0;
+    width: 90%;
+    margin: auto;
+    padding: 10%;
+}
+.navLinks
+{
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    right: 0%;
+    height: 100vh;
+    bottom: 0%;
+    top: 0%;
+    background-color: #112D4E;
+    line-height: 1.6;
+    transition-duration: 3s;
+    transition-timing-function:ease-in;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.hamperg
+{
+    z-index: 1;
+    margin-right: 5%;
+}
+.hamperg button
+{
+    border: none;
+    background-color: #112D4E;
+    border-radius: 50%;
+    color: whitesmoke;
+}
+.link a
+{
+    text-decoration: none;
+    color: white;
+}
