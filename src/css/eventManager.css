@@ -1,0 +1,30 @@
+table
+{
+    border-spacing: 0;
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+}
+th,
+    td {
+      margin: 0;
+      padding: 0.5rem;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+    }
+.eventHeading
+{
+    font-weight: 700;
+    margin: 20px 5px;
+}
+.createEvent
+{
+    margin: 20px 5px;
+    display: flex;
+    z-index: 0;
+}
+.createEventButton
+{
+    margin-left:5px ;
+    z-index: -1;
+}
